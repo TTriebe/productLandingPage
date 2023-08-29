@@ -1,0 +1,204 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+body{
+  background-color: lightgray;
+}
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #009a9b;
+  text-align: center;
+}
+#nav-bar ul {
+  list-style: none;
+}
+li a {
+  color: black;
+  text-decoration: none;
+}
+.nav-link {
+  font-size: 2rem;
+}
+.logo {
+  height: 200px;
+  width: auto;
+}
+.big-container {
+  width: 60%;
+  margin: 375px auto 0;
+}
+.first {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: 1.25rem;
+}
+#email {
+  height: 50px;
+  margin: 25px;
+}
+.submit{
+  background-color: lightblue;
+  color: black;
+  font-size: 1rem;
+  height: 60px;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+#form{
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  align-items: center;
+  margin: auto;
+}
+.second {
+  text-align: center;
+}
+.second h2:first-of-type {
+  font-size: 2rem;
+}
+.listA {
+  list-style: none;
+}
+.card {
+  border: 1px solid black;
+  display: flex;
+  text-align: center;
+  margin: 40px;
+  background-color: white;
+}
+.card-icon {
+  display: none;
+  color: #009a9b;
+}
+.card-body {
+  font-size: 2.5rem;
+}
+.card-body p{
+  font-size: 1.85rem;
+}
+.video {
+  display: flex;
+  justify-content: center;
+}
+iframe {
+  width: 400px;
+  margin: 25px auto;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  border: 1px solid black;
+  width: 100%;
+  margin: 10px auto;
+  height: auto;
+  background-color: #009a9b;
+}
+.container h3, h2, p, a {
+  font-size: 2rem;
+}
+
+#buchen1, #buchen2, #buchen3 {
+  font-size: 2rem;
+  height: 50px;
+}
+.big-container2{
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  background-color: #009a9b;
+}
+.big-container2 p{
+font-size: 2rem;
+}
+
+@media (min-width: 1024px) {
+  header {
+    flex-direction: row;
+  }
+  .logo {
+    height: 100px;
+  }
+  #nav-bar {
+    display: flex;
+    justify-content: end;
+    width: 100%;
+  }
+  #nav-bar ul {
+    display: flex;
+    flex-direction: row;
+  }
+  .nav-link {
+    font-size: 1.5rem;
+    margin-right: 25px;
+  }
+  .big-container {
+    width: 60%;
+    margin: 125px auto;
+  }
+  .card{
+    margin: 25px;
+  }
+  .card-icon {
+    display: flex;
+    align-items: center;
+    margin-left: 25px;
+  }
+  .card-body {
+    text-align: left;
+    margin: 25px;
+    font-size: 1.3rem;
+  }
+  .card-body p{
+    font-size: 1rem;
+  }
+  iframe {
+    width: 500px;
+  }
+  .last {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+  }
+  .container {
+    flex-direction: column;
+    width: calc(100%/3);
+    margin: 15px;
+    color: black;
+    align-items: center;
+    height: 500px;
+    font-size: 1.5rem;
+  }
+  .container:hover, a:hover{
+    background-color: blueviolet;
+    color: white;
+  }
+  .container-head{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding-bottom: ;
+  }
+  .container p, a{
+      font-size: 1.5rem;
+      text-align: center;
+  }
+    .big-container2 p{
+      font-size: 1rem;
+    }
+}
